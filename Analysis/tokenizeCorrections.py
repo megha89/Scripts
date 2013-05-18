@@ -45,7 +45,3 @@ print transposed
 fout1.writerows(transposed)
 fout.close()
 fin.close()
-   #for root, subFolders, files in os.walk(logfile):
-#    for filename in files:
-#        filePath = os.path.join(root, filename)
-#        with open( filePath, 'r' ) as fin:
