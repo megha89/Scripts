@@ -25,7 +25,7 @@ for row in reader:
         writer.writerow(row)
         
     else:
-        if word1[0].upper() == word2[0] and editdist.distance(word1[0],word2[0]) == 1 and editdist.distance(word1,word2) == 1:
+        if (word1[0].upper() == word2[0]or word1[0].lower()==word2[0]) and editdist.distance(word1[0],word2[0]) == 1 and editdist.distance(word1,word2) == 1:
             print word1, word2 + " Corrected, Capitalization Error"
             row[2] = "Corrected, Capitalization Error"
             writer.writerow(row)
