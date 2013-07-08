@@ -6,8 +6,8 @@ import time
 import editdist
 
 
-csv_file = "C:\Users\Megha\Desktop\SEM4\DDM\CourseProject\csvFiles\tokens.csv"
-csv_out = "C:\Users\Megha\Desktop\SEM4\DDM\CourseProject\csvFiles\errorClassification.csv"
+csv_file = "C:/Users/Megha/Desktop/M-Tech/SEM4/DDM/CourseProject/csvFiles/tokens.csv"
+csv_out = "C:/Users/Megha/Desktop/M-Tech/SEM4/DDM/CourseProject/csvFiles/errorClassificationNew.csv"
 fout = open(csv_file, 'rb')
 reader = csv.reader(fout)
 fout1 = open(csv_out,'wb')
@@ -25,15 +25,14 @@ for row in reader:
         writer.writerow(row)
         
     else:
-        if word1[0] == word2[0] and editdist.distance(word1,word2) < 3 :
-            row[2] = "Corrected, Spellcheck Error"
-            print word1, word2 + " Corrected, Spellcheck Error"
-            writer.writerow(row)
-            
-        elif word1[0] != word2[0].isupper() and editdist.distance(word1,word2) == 1:
+        if word1[0].upper() == word2[0] and editdist.distance(word1[0],word2[0]) == 1 and editdist.distance(word1,word2) == 1:
             print word1, word2 + " Corrected, Capitalization Error"
             row[2] = "Corrected, Capitalization Error"
-            print word1, word2 + " Corrected, Capitalization Error"
+            writer.writerow(row)
+
+        elif editdist.distance(word1,word2) < 3 :
+            row[2] = "Corrected, Spellcheck Error"
+            print word1, word2 + " Corrected, Spellcheck Error"
             writer.writerow(row)
             
         elif editdist.distance(word1,word2) > 3:
