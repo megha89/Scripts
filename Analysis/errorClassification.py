@@ -6,8 +6,9 @@ import time
 import editdist
 
 
-csv_file = "C:/Users/Megha/Desktop/M-Tech/SEM4/DDM/CourseProject/csvFiles/tokens.csv"
-csv_out = "C:/Users/Megha/Desktop/M-Tech/SEM4/DDM/CourseProject/csvFiles/errorClassificationNew.csv"
+csv_file = "/Users/meghagupta/Documents/Github/Scripts/Analysis/tokens.csv"
+csv_out = "/Users/meghagupta/Documents/Github/Scripts/Analysis/dataset.csv"
+
 fout = open(csv_file, 'rb')
 reader = csv.reader(fout)
 fout1 = open(csv_out,'wb')
@@ -37,7 +38,7 @@ for row in reader:
             
         elif editdist.distance(word1,word2) > 3:
             row[2] = "Additon of words"
-            print word1, word2 + " Additon of words"
+            print word1, word2 + " Addition of words"
             writer.writerow(row)
             
         else:

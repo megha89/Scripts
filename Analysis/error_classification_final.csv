@@ -1,59 +1,60 @@
-largest,Largest,"Corrected, Capitalization Error"
-Plant,Plant,Not corrected
-in,in,Not corrected
-the,the,Not corrected
-World.,World.,Not corrected
-stem,stem,Not corrected
-of,of,Not corrected
-tho,the,"Corrected, Spellcheck Error"
-plant,plant,Not corrected
-is,is,Not corrected
-as,as,Not corrected
-strong,strong,Not corrected
-as,as,Not corrected
-an,an,Not corrected
-or-,or-,Not corrected
-habitants,habitants,Not corrected
-of,of,Not corrected
-tho,the,"Corrected, Spellcheck Error"
-South,South,Not corrected
-Sea,Sea,Not corrected
-"Islands,","Islands,",Not corrected
-a,a,Not corrected
-depth,depth,Not corrected
-of,of,Not corrected
-from,from,Not corrected
-200,200,Not corrected
-to,to,Not corrected
-300,300,Not corrected
-foet.,feet.,"Corrected, Spellcheck Error"
-As,As,Not corrected
-soon,soon,Not corrected
-#NAME?,as,Additon of words
-the,the,Not corrected
-:,plant,Additon of words
-plant,takes,Additon of words
-takes,root,Additon of words
-root,a,Additon of words
-a,spear-,Additon of words
-*,"""Happy",Additon of words
-"■•"".","Tom""",Additon of words
-',Burrell,Additon of words
-'Happy,was,Additon of words
-Tom,arrested,Additon of words
-sworn,sworn,Not corrected
-out,out,Not corrected
-by,by,Not corrected
-Tom,Tom,Not corrected
-Irvine.,Irvine.,Not corrected
-V.,His,Others
-His,case,Others
-came,came,Not corrected
-up,up,Not corrected
-#NAME?,in,Additon of words
-Justice,Justice,Not corrected
-Carpender's,Carpender's,Not corrected
-court,court,Not corrected
-rell,rell,Not corrected
-was,was,Not corrected
-acquitted.,acquitted.,Not corrected
+oldText,newText,sameLength,editDist_0,NOCORRECTION,editDistAbove1,editDistBelow3,editDIst_1andchangeCase,SPELLCHECK,ADDITION,CAPITALIZATION,TYPO
+largest,Largest,"Corrected, Capitalization Error",,,,,,,,,
+Plant,Plant,Not corrected,,,,,,,,,
+in,in,Not corrected,,,,,,,,,
+the,the,Not corrected,,,,,,,,,
+World.,World.,Not corrected,,,,,,,,,
+stem,stem,Not corrected,,,,,,,,,
+of,of,Not corrected,,,,,,,,,
+tho,the,"Corrected, Spellcheck Error",,,,,,,,,
+plant,plant,Not corrected,,,,,,,,,
+is,is,Not corrected,,,,,,,,,
+as,as,Not corrected,,,,,,,,,
+strong,strong,Not corrected,,,,,,,,,
+as,as,Not corrected,,,,,,,,,
+an,an,Not corrected,,,,,,,,,
+or-,or-,Not corrected,,,,,,,,,
+habitants,habitants,Not corrected,,,,,,,,,
+of,of,Not corrected,,,,,,,,,
+tho,the,"Corrected, Spellcheck Error",,,,,,,,,
+South,South,Not corrected,,,,,,,,,
+Sea,Sea,Not corrected,,,,,,,,,
+"Islands,","Islands,",Not corrected,,,,,,,,,
+a,a,Not corrected,,,,,,,,,
+depth,depth,Not corrected,,,,,,,,,
+of,of,Not corrected,,,,,,,,,
+from,from,Not corrected,,,,,,,,,
+200,200,Not corrected,,,,,,,,,
+to,to,Not corrected,,,,,,,,,
+300,300,Not corrected,,,,,,,,,
+foet.,feet.,"Corrected, Spellcheck Error",,,,,,,,,
+As,As,Not corrected,,,,,,,,,
+soon,soon,Not corrected,,,,,,,,,
+#NAME?,as,Additon of words,,,,,,,,,
+the,the,Not corrected,,,,,,,,,
+:,plant,Additon of words,,,,,,,,,
+plant,takes,Additon of words,,,,,,,,,
+takes,root,Additon of words,,,,,,,,,
+root,a,Additon of words,,,,,,,,,
+a,spear-,Additon of words,,,,,,,,,
+*,"""Happy",Additon of words,,,,,,,,,
+"■•"".","Tom""",Additon of words,,,,,,,,,
+,Burrell,Additon of words,,,,,,,,,
+Happy,was,Additon of words,,,,,,,,,
+Tom,arrested,Additon of words,,,,,,,,,
+sworn,sworn,Not corrected,,,,,,,,,
+out,out,Not corrected,,,,,,,,,
+by,by,Not corrected,,,,,,,,,
+Tom,Tom,Not corrected,,,,,,,,,
+Irvine.,Irvine.,Not corrected,,,,,,,,,
+V.,His,Others,,,,,,,,,
+His,case,Others,,,,,,,,,
+came,came,Not corrected,,,,,,,,,
+up,up,Not corrected,,,,,,,,,
+#NAME?,in,Additon of words,,,,,,,,,
+Justice,Justice,Not corrected,,,,,,,,,
+Carpender's,Carpender's,Not corrected,,,,,,,,,
+court,court,Not corrected,,,,,,,,,
+rell,rell,Not corrected,,,,,,,,,
+was,was,Not corrected,,,,,,,,,
+acquitted.,acquitted.,Not corrected,,,,,,,,,
