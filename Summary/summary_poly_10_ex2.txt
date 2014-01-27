@@ -1,0 +1,43 @@
+Learning
+
+Reading training examples... (30815 examples) done
+Training set properties: 6 features, 6 classes
+Iter 1: .........*(NumConst=1, SV=1, CEps=100.0000, QPEps=0.0000)
+Iter 2: *(NumConst=2, SV=2, CEps=38.3082, QPEps=0.0000)
+Iter 3: .........*(NumConst=3, SV=3, CEps=39.8546, QPEps=0.0000)
+Iter 4: *(NumConst=4, SV=3, CEps=7.4430, QPEps=0.0001)
+Iter 5: .........*(NumConst=5, SV=4, CEps=22.0501, QPEps=0.0000)
+Iter 6: .........*(NumConst=6, SV=5, CEps=15.4365, QPEps=0.0001)
+Iter 7: .........*(NumConst=7, SV=6, CEps=11.5573, QPEps=0.0000)
+Iter 8: .........*(NumConst=8, SV=6, CEps=2.6171, QPEps=0.0000)
+Iter 9: *(NumConst=9, SV=7, CEps=0.4716, QPEps=0.0000)
+Iter 10: .........*(NumConst=10, SV=8, CEps=0.5414, QPEps=0.0001)
+Iter 11: *(NumConst=11, SV=9, CEps=0.1536, QPEps=0.0000)
+Iter 12: *(NumConst=12, SV=10, CEps=0.1764, QPEps=0.0000)
+Iter 13: .........*(NumConst=13, SV=9, CEps=0.2035, QPEps=0.0000)
+Iter 14: *(NumConst=14, SV=10, CEps=0.1356, QPEps=0.0000)
+Iter 15: .........(NumConst=14, SV=10, CEps=0.0618, QPEps=0.0000)
+Final epsilon on KKT-Conditions: 0.06181
+Upper bound on duality gap: 0.61806
+Dual objective value: dval=641.28552
+Primal objective value: pval=641.90359
+Total number of constraints in final working set: 14 (of 14)
+Number of iterations: 15
+Number of calls to 'find_most_violated_constraint': 277335
+Number of SV: 10 
+Norm of weight vector: |w|=18.73217
+Value of slack variable (on working set): xi=46.58385
+Value of slack variable (global): xi=46.64566
+Norm of longest difference vector: ||Psi(x,y)-Psi(x,ybar)||=4.08300
+Runtime in cpu-seconds: 313401.71
+Final number of constraints in cache: 139876
+Writing learned model...done
+
+Prediction
+
+Reading model...done.
+Reading test examples... (13207 examples) done.
+Classifying test examples...done
+Runtime (without IO) in cpu-seconds: 6923.60
+Average loss on test set: 8.3213
+Zero/one-error on test set: 8.32% (12108 correct, 1099 incorrect, 13207 total)

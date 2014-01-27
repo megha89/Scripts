@@ -1,0 +1,64 @@
+Learning
+
+Reading training examples... (30815 examples) done
+Training set properties: 6 features, 6 classes
+Iter 1: .........*(NumConst=1, SV=1, CEps=100.0000, QPEps=0.0000)
+Iter 2: *(NumConst=2, SV=2, CEps=38.3791, QPEps=0.0000)
+Iter 3: *(NumConst=3, SV=3, CEps=12.1586, QPEps=0.0000)
+Iter 4: .........*(NumConst=4, SV=4, CEps=78.4489, QPEps=15.2226)
+Iter 5: *(NumConst=5, SV=5, CEps=25.5037, QPEps=0.0000)
+Iter 6: *(NumConst=6, SV=5, CEps=7.8787, QPEps=0.0000)
+Iter 7: .........*(NumConst=7, SV=6, CEps=29.6415, QPEps=0.8571)
+Iter 8: *(NumConst=8, SV=7, CEps=13.8621, QPEps=0.0001)
+Iter 9: *(NumConst=9, SV=7, CEps=3.7123, QPEps=0.0000)
+Iter 10: .........*(NumConst=10, SV=8, CEps=15.9887, QPEps=0.0000)
+Iter 11: *(NumConst=11, SV=9, CEps=6.5818, QPEps=0.0000)
+Iter 12: *(NumConst=12, SV=10, CEps=2.4088, QPEps=0.0000)
+Iter 13: *(NumConst=13, SV=11, CEps=2.0397, QPEps=0.0000)
+Iter 14: .........*(NumConst=14, SV=12, CEps=15.3038, QPEps=0.0289)
+Iter 15: *(NumConst=15, SV=13, CEps=3.3944, QPEps=1.1022)
+Iter 16: .........*(NumConst=16, SV=13, CEps=2.3054, QPEps=0.3126)
+Iter 17: *(NumConst=17, SV=13, CEps=2.9798, QPEps=0.5259)
+Iter 18: *(NumConst=18, SV=13, CEps=1.0754, QPEps=0.3468)
+Iter 19: *(NumConst=19, SV=14, CEps=1.0463, QPEps=0.1701)
+Iter 20: *(NumConst=20, SV=14, CEps=1.5980, QPEps=0.4258)
+Iter 21: *(NumConst=21, SV=15, CEps=0.6504, QPEps=0.2193)
+Iter 22: *(NumConst=22, SV=16, CEps=0.5058, QPEps=0.1625)
+Iter 23: *(NumConst=23, SV=17, CEps=0.3570, QPEps=0.1757)
+Iter 24: *(NumConst=24, SV=18, CEps=0.4293, QPEps=0.1565)
+Iter 25: .........*(NumConst=25, SV=18, CEps=0.5107, QPEps=0.2184)
+Iter 26: *(NumConst=26, SV=19, CEps=0.3645, QPEps=0.1517)
+Iter 27: *(NumConst=27, SV=20, CEps=0.3456, QPEps=0.1670)
+Iter 28: *(NumConst=28, SV=21, CEps=0.3046, QPEps=0.1368)
+Iter 29: *(NumConst=29, SV=22, CEps=0.3538, QPEps=0.1225)
+Iter 30: *(NumConst=30, SV=22, CEps=0.3626, QPEps=0.1395)
+Iter 31: *(NumConst=31, SV=21, CEps=0.1932, QPEps=0.0817)
+Iter 32: *(NumConst=32, SV=22, CEps=0.1941, QPEps=0.0747)
+Iter 33: *(NumConst=33, SV=22, CEps=0.1296, QPEps=0.0621)
+Iter 34: .........*(NumConst=34, SV=24, CEps=0.1026, QPEps=0.0286)
+Iter 35: .........(NumConst=34, SV=24, CEps=0.0689, QPEps=0.0286)
+Final epsilon on KKT-Conditions: 0.06885
+Upper bound on duality gap: 6.49147
+Dual objective value: dval=3615.61098
+Primal objective value: pval=3622.10244
+Total number of constraints in final working set: 34 (of 34)
+Number of iterations: 35
+Number of calls to 'find_most_violated_constraint': 277335
+Number of SV: 24 
+Norm of weight vector: |w|=51.58240
+Value of slack variable (on working set): xi=22.86537
+Value of slack variable (global): xi=22.91731
+Norm of longest difference vector: ||Psi(x,y)-Psi(x,ybar)||=4.07146
+Runtime in cpu-seconds: 116220.84
+Final number of constraints in cache: 151066
+Writing learned model...done
+
+
+Prediction
+
+Reading model...done.
+Reading test examples... (13207 examples) done.
+Classifying test examples...done
+Runtime (without IO) in cpu-seconds: 1336.64
+Average loss on test set: 0.5755
+Zero/one-error on test set: 0.58% (13131 correct, 76 incorrect, 13207 total)

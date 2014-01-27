@@ -1,0 +1,42 @@
+Learning
+
+Reading training examples... (30815 examples) done
+Training set properties: 6 features, 6 classes
+Iter 1: .........*(NumConst=1, SV=1, CEps=100.0000, QPEps=0.0000)
+Iter 2: *(NumConst=2, SV=2, CEps=34.9519, QPEps=0.0000)
+Iter 3: .........*(NumConst=3, SV=3, CEps=39.6073, QPEps=0.0000)
+Iter 4: *(NumConst=4, SV=3, CEps=14.4086, QPEps=0.0000)
+Iter 5: .........*(NumConst=5, SV=4, CEps=20.0616, QPEps=0.0000)
+Iter 6: .........*(NumConst=6, SV=5, CEps=14.8334, QPEps=0.0000)
+Iter 7: .........*(NumConst=7, SV=6, CEps=11.5582, QPEps=0.0000)
+Iter 8: *(NumConst=8, SV=6, CEps=4.2382, QPEps=0.0000)
+Iter 9: .........*(NumConst=9, SV=7, CEps=0.5930, QPEps=0.0000)
+Iter 10: *(NumConst=10, SV=8, CEps=0.3127, QPEps=0.0000)
+Iter 11: *(NumConst=11, SV=9, CEps=0.1956, QPEps=0.0000)
+Iter 12: .........*(NumConst=12, SV=9, CEps=0.2068, QPEps=0.0000)
+Iter 13: .........(NumConst=12, SV=9, CEps=0.0957, QPEps=0.0000)
+Final epsilon on KKT-Conditions: 0.09568
+Upper bound on duality gap: 9.56845
+Dual objective value: dval=7090.84464
+Primal objective value: pval=7100.41309
+Total number of constraints in final working set: 12 (of 12)
+Number of iterations: 13
+Number of calls to 'find_most_violated_constraint': 246520
+Number of SV: 9 
+Norm of weight vector: |w|=67.12073
+Value of slack variable (on working set): xi=48.38249
+Value of slack variable (global): xi=48.47817
+Norm of longest difference vector: ||Psi(x,y)-Psi(x,ybar)||=1.12078
+Runtime in cpu-seconds: 0.95
+Final number of constraints in cache: 128770
+Compacting linear model...done
+Writing learned model...done
+
+Prediction
+
+Reading model...done.
+Reading test examples... (13207 examples) done.
+Classifying test examples...done
+Runtime (without IO) in cpu-seconds: 0.06
+Average loss on test set: 29.2799
+Zero/one-error on test set: 29.28% (9340 correct, 3867 incorrect, 13207 total)
